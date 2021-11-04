@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    overflow-x: hidden;
+}
+
+/*
+    Navigation
+*/
+
+.head-nav {
+    position: static;
+    margin-top: 25px;
+}
+
+.bot-nav {
+    margin: 200px 0;
+}
+
+.nav-logo {
+    width: 51px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 251px;
+    list-style: none;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    color: #444444;
+}
+.nav-list > li > a:hover {
+    text-decoration: none;
+    color: #151515;
+}
+.nav-list > li > a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: static;
+    top: 25px;
+
+    max-height: 25px;
+    width: 960px;
+    max-width: 960px;
+}
+
+/*
+    index - article - styles
+*/
+
+.index-article {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/*
+    index - section - styles
+*/
+
+.index-section {
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+}
+
+.index-section-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index-section-bot {
+    display: flex;
+    justify-content: center;
+}
+
+.index-section-bot-opening {
+    height: 500px;
+}
+
+.index-section-bot-point-only {
+    align-items: center;
+    gap: 50px;
+}
+
+.index-section-hero {
+    display: flex;
+    gap: 100px;
+}
+
+.index-section-bot-hero-container {
+    height: 100px;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 400px;
+    position: static;
+    left: 83.87%;
+    right: 5%;
+    top: 36.03%;
+    bottom: -40.23%;
+}
+
+.pointer-img {
+    width: 911.94px;
+}
+
+.graph-img {
+    width: 664px;
+}
+
+.open-img {
+    position: static;
+    height: 1250px; 
+    left: -243px;
+    top: 244px;
+}
+
+.part-of-something-text {
+    width: 400px;
+}
+
+.point-only {
+    width: 134px;
+}
+
+.point-only-text {
+    width: 250px;
+}
+
+.index-title {
+    height: 90px;
+}
+
+/*
+    List - styles
+*/
+
+.list-bot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.list-bot > li > a {
+    text-decoration: none;
+}
+
+/*
+    product card - styles
+*/
+
+.product-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.product-interaction-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.product-image {
+    width: 100%;
+    max-height: 150px;
+}
+
+.product-protection {
+    max-height: 75px;
+}
+
+/*
+    Under Page - Styles
+*/
+
+.up-header {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.up-main {
+    margin: 100px 0;
+}
+
+.about-text {
+    width: 400px;
+}
+
+.about-bottom {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.addons-main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: 100%;
+    gap: 150px;
+}
+
+.addon-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addon-image-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.addon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.addon-text-bread {
+    max-width: 300px;
+    width: 100%;
+}
+
+.addon-image {
+    width: 100%;
+    max-width: 300px;
+    max-height: 433px;
+}

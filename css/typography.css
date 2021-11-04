@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Heebo";
+    font-weight: 300;
+    font-style: normal;
+    src: url("./../assets/fonts/Heebo-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./../assets/fonts/Heebo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-weight: 500;
+    font-style: normal;
+    src: url("./../assets/fonts/Heebo-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-weight: 600;
+    font-style: normal;
+    src: url("./../assets/fonts/Heebo-Bold.ttf") format("truetype");
+}
+
+* {
+    font-family: 'Heebo','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*  Typography info
+    Base-Size: 18px
+    Base-font: Heebo
+    Scale: 1.414 Augmented Fourth
+*/
+
+h2 {
+
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.no-td {
+    text-decoration: none;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.fs-none {
+    font-size: none;
+}
+
+.fs-tiny {
+    font-size: 9px;
+}
+
+.fs-small {
+    font-size: 12.73px;
+}
+
+.fs-regular {
+    font-size: 18px;
+}
+
+.fs-medium {
+    font-size: 25.45px;
+}
+
+.fs-large {
+    font-size: 35.99px;
+}
+
+.fs-huge {
+    font-size: 50.89px;
+}
+
+.fs-hero {
+    font-size: 71.96px;
+}
+
+.fw-light {
+    font-weight: 300 !important;
+}
+
+.fw-regular {
+    font-weight: 400 !important;
+}
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-bold {
+    font-weight: 600 !important;
+}

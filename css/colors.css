@@ -1,0 +1,31 @@
+* {
+    color: #151515;
+}
+
+.c-black {
+    color: #151515;
+}
+
+.c-lightBlack {
+    color: #444444;
+}
+
+.c-link {
+    color: #0066CC;
+}
+
+.c-warmGradient {
+    background-clip: border-box;
+    background: -webkit-linear-gradient(#FF9D33, #E52E7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.c-coldGradient {
+    background-clip: border-box;
+    background: -webkit-linear-gradient(#66B6FF, #33FFC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
